@@ -1,0 +1,167 @@
+/* Add styles for the profile picture */
+.about-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-header img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensures round shape */
+    margin-right: 10px;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background color */
+    color: #fff; /* Default text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Adjust padding to your preference */
+}
+
+header h1 {
+    font-size: 1.5em; /* Adjust font size */
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styles */
+#about, #skills, #portfolio, #experience, #contact {
+    padding: 50px 0;
+}
+
+#about p, #skills ul li, .portfolio-item p, footer p, .experience-item ul {
+    color: #ccc; /* Light gray text color */
+}
+
+/* Portfolio item styles */
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #ffcc00; /* Yellow text color */
+}
+
+.portfolio-item p {
+    line-height: 1.6;
+}
+
+.portfolio-item a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+    color: #ff6666; /* Light red on hover */
+}
+
+/* Experience item styles */
+.experience-item {
+    margin-bottom: 30px;
+}
+
+.experience-item h3 {
+    font-size: 1.5em;
+    color: #66ccff; /* Light blue text color */
+}
+
+.experience-item h4 {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #ff9999; /* Light pink text color */
+}
+
+.experience-item .experience-date {
+    color: #999; /* Light gray text color */
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Contact form styles */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea,
+#contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #ff6666; /* Light red button */
+    color: #fff; /* White text color */
+    border: none;
+    cursor: pointer;
+}
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Ensures round shape */
+}
+
+
+
+
